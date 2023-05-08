@@ -1,0 +1,72 @@
+@media screen and (max-width: 768px) {
+    .top-nav{
+        flex-direction: column;
+    }
+    .form-control{
+        height: 35px;
+        width: 100%;
+        margin: .8rem 0;
+    }
+    .search-input{
+        width: 70%;
+    }
+    .search-btn{
+        width: 20%;
+    }
+    .bottom-nav{
+        width: 90%;
+        right: 0;
+        top: 155px;
+    }
+    .bottom-nav li{
+        font-size: 14px;
+    }
+    .container{
+        padding: .5rem;
+    }
+    .head-lines{
+        top: 70%;
+        left: 40%;
+    }
+    .head-lines h2{
+        display: none;
+    }
+    .head-lines h3{
+        font-size: 16px;
+    }
+    .head-lines p{
+        font-size: 14px;
+        text-align: justify;
+        margin: .5rem 0;
+    }
+    .head-lines button{
+        padding: .5rem 1.5rem;
+    }
+
+    /* ------------------------------- */
+    .deal{
+        padding: .5rem;
+    }
+    .deal h2{
+        font-size: 16px;
+    }
+    .deal span{
+        padding: .3rem;
+        font-size: 14px;
+    }
+    .main, .products{
+        background-color: #f1f1ff;
+    }
+    .product{
+        background-color: #fff;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    /* ---------------------------------------- */
+    .footer-content-box{
+        margin-top: 1rem;
+    }
+    .footer-copyright{
+        font-size: 14px;
+    }
+}
